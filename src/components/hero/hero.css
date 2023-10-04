@@ -1,0 +1,18 @@
+/* hero */
+.hero {
+  height: 50vh;
+  background-image: url("../../assets/pexels-dmitry-demidov-3784221.jpg");
+  background-position: center;
+  background-size: cover;
+  color: var(--orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .hero {
+    height: 70vh;
+  }
+}

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: var(--orange-light);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  /* colors */
+  --dark: #080b1b;
+  --light: #f0efed;
+  --purple: #1a2456;
+  --orange: #ff8b68;
+  --orange-light: #efc2b3;
+}
