@@ -1,14 +1,21 @@
 import "./hero.css";
 
-function Hero() {
+type PropTypes = {
+  bgImage: string;
+  title: string;
+  text: string;
+  textColor: string;
+};
+
+function Hero({ bgImage, title, text, textColor }: PropTypes) {
   return (
-    <div className="hero">
+    <div
+      className="hero"
+      style={{ backgroundImage: `url(${bgImage})`, color: textColor }}
+    >
       <div>
-        <h1>
-          A CONSOLE FOR <br />
-          EVERY WORKFLOW
-        </h1>
-        <p>Discover the perfect console for yours.</p>
+        <h1>{title}</h1>
+        <p>{text}</p>
       </div>
     </div>
   );

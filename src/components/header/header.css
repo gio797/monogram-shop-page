@@ -38,6 +38,7 @@ header button {
   left: 100%;
   transform: translateX(0%);
   transition: transform 250ms;
+  z-index: 100;
 }
 
 .nav-open {

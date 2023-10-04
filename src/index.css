@@ -8,6 +8,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h1,
+h2,
+p {
+  margin: 0;
+}
+
 a {
   color: var(--orange-light);
   text-decoration: none;
@@ -25,6 +31,11 @@ li {
   list-style: none;
 }
 
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
 :root {
   /* colors */
   --dark: #080b1b;
@@ -32,4 +43,36 @@ li {
   --purple: #1a2456;
   --orange: #ff8b68;
   --orange-light: #efc2b3;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1rem 1fr 1rem;
+  grid-gap: 20px;
+}
+
+.grid * {
+  grid-column: 2/3;
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns:
+      minmax(1rem, 1fr)
+      minmax(150px, 500px)
+      minmax(150px, 500px)
+      minmax(1rem, 1fr);
+  }
+
+  .grid *:nth-child(odd) {
+    grid-column: 2/3;
+  }
+
+  .grid *:nth-child(even) {
+    grid-column: 3/4;
+  }
+}
+
+.cards {
+  margin-top: 20px;
 }

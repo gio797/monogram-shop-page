@@ -1,0 +1,24 @@
+.card {
+  position: relative;
+  margin-bottom: 20px;
+  color: var(--purple);
+}
+
+.pre-order {
+  position: absolute;
+  background-color: var(--orange);
+  top: 20px;
+  right: 0;
+  font-weight: 700;
+  padding: 6px;
+}
+
+.card img {
+  height: 300px;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
