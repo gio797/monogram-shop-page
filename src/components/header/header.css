@@ -5,7 +5,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  position: absolute;
+  position: fixed;
   background-color: var(--purple);
   height: 60px;
   color: var(--orange-light);
@@ -13,6 +13,7 @@ header {
   gap: 20px;
   align-items: center;
   justify-content: space-between;
+  z-index: 100;
 }
 
 header button {
@@ -38,7 +39,6 @@ header button {
   left: 100%;
   transform: translateX(0%);
   transition: transform 250ms;
-  z-index: 100;
 }
 
 .nav-open {

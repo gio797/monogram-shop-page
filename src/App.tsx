@@ -7,7 +7,7 @@ import card1 from "../src/assets/pexels-emirhan-sucu-18411634.jpg";
 import card2 from "../src/assets/pexels-francesco-ungaro-1670977.jpg";
 import card3 from "../src/assets/pexels-hendrik-b-744318.jpg";
 import card4 from "../src/assets/pexels-mindscape-18442268.jpg";
-import Footer from "./components/footer/footer";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -51,7 +51,7 @@ function App() {
         title="CREATE YOUR OWN CONSOLE"
         text="Add-on to make it perfect."
       />
-      <div className="cards grid">
+      <div className="cards grid2">
         <Card
           cardImg={card1}
           name="MINI CONSOLE"
