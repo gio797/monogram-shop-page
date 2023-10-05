@@ -37,9 +37,17 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <button className="open-nav" onClick={() => setNavOpen(true)}>
-        <AiOutlineMenu size={25} />
-      </button>
+      <div className="currency">
+        <button className="open-nav" onClick={() => setNavOpen(true)}>
+          <AiOutlineMenu size={25} />
+        </button>
+        <select>
+          <option value="usd">USD</option>
+          <option value="eur">EUR</option>
+          <option value="gpb">GPB</option>
+          <option value="gel">GEL</option>
+        </select>
+      </div>
     </header>
   );
 }

@@ -26,6 +26,7 @@ header button {
   display: flex;
   align-items: center;
   gap: 5px;
+  font-weight: bold;
 }
 
 .nav {
@@ -55,6 +56,18 @@ header button {
   text-transform: uppercase;
 }
 
+.currency {
+  display: flex;
+  align-items: center;
+}
+
+select {
+  border: none;
+  background-color: transparent;
+  color: var(--orange-light);
+  font-weight: bold;
+}
+
 @media (min-width: 900px) {
   .open-nav,
   .close-nav {
@@ -70,5 +83,6 @@ header button {
     margin-top: 0;
     margin-bottom: 0;
     gap: 30px;
+    font-size: 14px;
   }
 }
