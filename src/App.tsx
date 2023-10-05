@@ -2,6 +2,7 @@ import Card from "./components/card/Card";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import bgImage1 from "./assets/pexels-dmitry-demidov-3784221.jpg";
+import bgImage3 from "./assets/pexels-pixabay-256381.jpg";
 import bgImage2 from "./assets/pexels-pavel-danilyuk-8438976.jpg";
 import card1 from "../src/assets/pexels-emirhan-sucu-18411634.jpg";
 import card2 from "../src/assets/pexels-francesco-ungaro-1670977.jpg";
@@ -14,7 +15,7 @@ function App() {
     <div className="app">
       <Header />
       <Hero
-        bgImage={bgImage1}
+        bgImage={bgImage3}
         textColor="var(--orange)"
         title="A CONSOLE FOR EVERY WORKFLOW"
         text="Discover the perfect console for yours."

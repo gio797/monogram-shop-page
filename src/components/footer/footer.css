@@ -3,3 +3,28 @@
   color: var(--orange-light);
   padding: 2rem;
 }
+
+.title {
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer input {
+  background-color: transparent;
+  border: 1px solid var(--orange-light);
+  color: var(--orange-light);
+  padding: 4px 8px;
+  margin: 5px 5px 5px 0;
+}
+
+.footer button {
+  color: var(--purple);
+  background-color: var(--orange-light);
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 5px;
+}
